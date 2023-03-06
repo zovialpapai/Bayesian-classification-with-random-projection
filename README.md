@@ -6,5 +6,14 @@ Micro-array gene expression cancer data sets utilized in the article is freely a
 real data analysis: 
 The directory contains the a R script named BCC_data.R that can be utilised to carry out the analysis of micro-array gene expression cancer data sets (Leukomia, Lung Cancer, Prostate cancer), presented in Section 4 of the paper.
 
+repeated simulations:
+The directory contains three R scripts, named BCC_sims.R, Weakleaners.R, and time_comparison.R. 
+
+(a) BCC_sims.R can be utilsed to carry out the simulations presented in Section 3 on High-dimensional Probit regression, and Section 5 on High-dimensional Logit regression, along with hyper-parameter tuning.
+
+(b) Weakleaners.R can be utilized to study the effect of number of replications of compression matrix (or number of weak classifiers)  on the accuracy of classifiers AC, AC+, HH, HH+. The results are presented in Section 3.
+
+(c) time_comparison.R can be utilised to study comparative computional time of our classifiers. The results are presented in Section 3.
+
 
 
