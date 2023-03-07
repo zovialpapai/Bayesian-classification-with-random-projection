@@ -1,6 +1,9 @@
 Computer code to reproduce the numerical results presented in "Efficient Bayesian high-dimensional classification via random projection with application to gene expression data" (Chakraborty A., 2023+). Here, we present a short decription about the directories in the repository. (To be updated soon)
 
 functions:
+The directory contains utility functions in two R scripts, that are utilsed in the repeated simulations and real data analysis conducted in the paper. 
+(a) BCC_Functions.R contains functions for compression matrix generation; Probit regression via Albert & Chib and Holmes & Held data augmentation schemes; Logit regression via Polya-Gamma data augmentation scheme; hyper-parameter tuning; and associated helper functions.
+(b) Probit_HH_cpp.R contains Probit regression via Holmes & Held data augmentation scheme, written in Rcpp.
 
 repeated simulations:
 The directory contains three R scripts, named BCC_sims.R, Weakleaners.R, and time_comparison.R. 
