@@ -20,7 +20,7 @@ Micro-array gene expression cancer data sets utilized in the article is freely a
 real data analysis: 
 The directory contains the a R script named BCC_data.R that can be utilised to carry out the analysis of micro-array gene expression cancer data sets (Leukomia, Lung Cancer, Prostate cancer), presented in Section 4 of the paper.
 
-Please reach out in abhisek_chakraborty@tamu.edu for any queries.
+Please reach out at abhisek_chakraborty@tamu.edu for any queries.
 
 
 
