@@ -1,4 +1,4 @@
-Computer code to reproduce the numerical results presented in "Efficient Bayesian high-dimensional classification via random projection with application to gene expression data" (Chakraborty A., 2023+). Here, we present a short decription about the directories in the repository. (To be updated soon)
+Computer code to reproduce the numerical results presented in "Efficient Bayesian high-dimensional classification via random projection with application to gene expression data" (Chakraborty A., 2023+). Here, we present a short decription about the directories in the repository. 
 
 functions:
 The directory contains utility functions in two R scripts, that are utilsed in the repeated simulations and real data analysis conducted in the paper. 
