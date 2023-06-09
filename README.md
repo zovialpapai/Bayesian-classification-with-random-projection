@@ -10,9 +10,9 @@ The directory contains three R scripts, named BCC_sims.R, Weakleaners.R, and tim
 
 (a) BCC_sims.R can be utilsed to carry out the simulations presented in Section 3 on High-dimensional Probit regression, and Section 5 on High-dimensional Logit regression, along with hyper-parameter tuning.
 
-(b) Weakleaners.R can be utilized to study the effect of number of replications of compression matrix (or number of weak classifiers)  on the accuracy of classifiers AC, AC+, HH, HH+. The results are presented in Section 3.
+(b) Weakleaners.R can be utilized to study the effect of number of replications of compression matrix (or number of weak classifiers)  on the accuracy of classifiers AC, AC+, HH, HH+. The results are presented in Section 3.  Plot_ChoiceR_TimeComparison.R takes the output rds files from  Weakleaners.R, collected in repeated simulations/output folder; and reproduces Figures 2 and 4 in the article.
 
-(c) time_comparison.R can be utilised to study comparative computional time of our classifiers. The results are presented in Section 3.
+(c) time_comparison.R can be utilised to study comparative computional time of our classifiers. The results are presented in Section 3. Plot_ChoiceR_TimeComparison.R takes the output rds files from  time_comparison.R, collected in repeated simulations/output folder; and reproduces Figures 1 and 3 in the article.
 
 data: 
 Micro-array gene expression cancer data sets utilized in the article is freely available on the website https://data.mendeley.com/. Copies of the data sets are available in the "data" directory in the our repository.
