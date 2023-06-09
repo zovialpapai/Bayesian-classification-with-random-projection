@@ -8,7 +8,7 @@ The directory contains utility functions in two R scripts, that are utilsed in t
 repeated simulations:
 The directory contains three R scripts, named BCC_sims.R, Weakleaners.R, and time_comparison.R. 
 
-(a) BCC_sims.R can be utilsed to carry out the simulations presented in Section 3 on High-dimensional Probit regression, and Section 5 on High-dimensional Logit regression, along with hyper-parameter tuning.
+(a) BCC_sims.R can be utilsed to carry out the simulations presented in Section 3 on High-dimensional Probit regression, and Section 5 on High-dimensional Logit regression, along with hyper-parameter tuning. BCC_probitsims_reproducible.R computes quantities presented in Tables 1,2,3,4,5. BCC_logitsims_reproducible.R computes quantities presented in Table 6.
 
 (b) Weakleaners.R can be utilized to study the effect of number of replications of compression matrix (or number of weak classifiers)  on the accuracy of classifiers AC, AC+, HH, HH+. The results are presented in Section 3.  Plot_ChoiceR_TimeComparison.R takes the output rds files from  Weakleaners.R, collected in repeated simulations/output folder; and reproduces Figures 2 and 4 in the article.
 
