@@ -18,7 +18,7 @@ data:
 Micro-array gene expression cancer data sets utilized in the article is freely available on the website https://data.mendeley.com/. Copies of the data sets are available in the "data" directory in the our repository.
 
 real data analysis: 
-The directory contains the a R script named BCC_data.R that can be utilised to carry out the analysis of micro-array gene expression cancer data sets (Leukomia, Lung Cancer, Prostate cancer), presented in Section 4 of the paper. Plot_RealData.R takes the output rds files from BCC_data.R and reproduces Figures 5, 6 and 7 in the article.
+The directory contains the a R script named BCC_data.R that can be utilised to carry out the analysis of micro-array gene expression cancer data sets (Leukomia, Lung Cancer, Prostate cancer), presented in Section 4 of the paper. Plot_RealData.R takes the output rds files from BCC_data.R, collected in real data analysis/output folder; and reproduces Figures 5, 6 and 7 in the article.
 
 Please reach out to abhisek_chakraborty@tamu.edu for any queries.
 
